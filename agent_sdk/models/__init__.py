@@ -19,6 +19,21 @@ from agent_sdk.models.memory import (
     CacheEntry,
     RefreshStatus,
 )
+from agent_sdk.models.chat import (
+    MessageRole,
+    FeedbackType,
+    ChatMessage,
+    ChatSession,
+    ChatRequest,
+    ChatResponse,
+    IdeaSuggestion,
+    FeedbackRequest,
+    FeedbackResponse,
+    SessionListResponse,
+    SessionHistoryResponse,
+    ConversationSummary,
+    StreamChunk,
+)
 
 __all__ = [
     # Base
@@ -50,4 +65,18 @@ __all__ = [
     "ContextUpdate",
     "CacheEntry",
     "RefreshStatus",
+    # Chat and Conversation
+    "MessageRole",
+    "FeedbackType",
+    "ChatMessage",
+    "ChatSession",
+    "ChatRequest",
+    "ChatResponse",
+    "IdeaSuggestion",
+    "FeedbackRequest",
+    "FeedbackResponse",
+    "SessionListResponse",
+    "SessionHistoryResponse",
+    "ConversationSummary",
+    "StreamChunk",
 ]
